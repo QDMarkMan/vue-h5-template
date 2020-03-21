@@ -1,0 +1,212 @@
+/** ---------------------------------------------------------------------------------------------
+ *  @Author [ETongfu].
+ *  @Des [Global style].
+ *-------------------------------------------------------------------------------------------- */
+
+ .full-screen{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.full-radius-white{
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #ffffff;
+  overflow-y: auto;
+  position: relative;
+}
+.flax-a{
+  flex: auto;
+}
+
+// width
+.w-20{
+  display: inline-block;
+  width: 20px;
+}
+
+// padding
+.p-b-10{
+  padding-bottom: 10px;
+}
+.p-t-8{
+  padding-top: 8px;
+}
+.p-l-8{
+  padding-left: 8px;
+}
+.p-r-8{
+  padding-right: 8px;
+}
+.p-b-8{
+  padding-bottom: 8px;
+}
+.p-t-10{
+  padding-top: 10px;
+}
+.p-l-10{
+  padding-left: 10px;
+}
+.p-t-12{
+  padding-top: 12px;
+}
+.p-t-15{
+  padding-top: 15px;
+}
+.p-l-15{
+  padding-left: 15px;
+}
+.p-t-20{
+  padding-top: 20px;
+}
+.p-l-20{
+  padding-left: 20px;
+}
+.p-b-20{
+  padding-bottom: 20px;
+}
+.p-t-30-p{
+  padding-top: 30%;
+}
+.p-v-0{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+// margin
+.m-0{
+  margin: 0;
+}
+.m-l-8 {
+  margin-left: 8px;
+}
+.m-r-8 {
+  margin-right: 8px;
+}
+.m-r-5 {
+  margin-right: 5px;
+}
+.m-t-10{
+  margin-top: 10px;
+}
+.m-t-15{
+  margin-top: 15px;
+}
+.m-b-15{
+  margin-bottom: 15px;
+}
+.m-t-20{
+  margin-top: 20px;
+}
+.m-t-30{
+  margin-top: 30px;
+}
+.m-b-20{
+  margin-bottom: 20px;
+}
+// align
+.t-a-r{
+  text-align: right;
+}
+.t-a-l{
+  text-align: left;
+}
+.t-a-c{
+  text-align: center;
+}
+// float
+.f-l {
+  float: left;
+}
+.f-r {
+  float: right;
+}
+// line-height
+.l-h-16{
+  line-height: 16px;
+}
+.l-h-18{
+  line-height: 16px;
+}
+.l-h-30{
+  line-height: 1.5;
+}
+// border 
+.border-b{
+  border-bottom: 1px solid #f1f1f1;
+}
+// font 
+.light-font {
+  color: $dark-text-color;
+}
+.theme-font {
+  color: $theme-color;
+}
+.danger-font {
+  color: $disabled-primary-bg;
+}
+.mini-font{
+  font-size: 13px;
+}
+.big-font{
+  font-size: 18px;
+}
+.font-20{
+  font-size: 20px;
+}
+.font-30{
+  font-size: 30px;
+}
+.f-w-b{
+  font-weight: bold;
+}
+// box
+.content-box {
+  padding: 20px 10px 10px 10px;
+}
+.content-default-title{
+  color: $theme-color;
+  font-size: 17px;
+  padding-left: 7px;
+  border-left: 4px solid $theme-color;
+}
+// border extend
+.extend-border{
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+// left right list
+.info-list{
+  display: block;
+  .info-list-item{
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+// button
+.bottom-btn {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 30px;
+}
+
+// ------------------------------ nut ------------------------------ //
+.nut-imagepicker {
+  .img-list{
+    // display: inline-flex;
+    .add-icon{
+      min-width: 1.95rem;
+      input{
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+      }
+    }
+  }
+}
