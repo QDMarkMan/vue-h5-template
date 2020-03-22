@@ -29,7 +29,7 @@ module.exports = {
     port: process.env.port || 7001
   },
   configureWebpack: {
-    name: 'qixiaobao',
+    name: 'vue-h5-template',
     resolve: {
       extensions: ['.js', '.json', '.vue', '.scss'],
       alias
